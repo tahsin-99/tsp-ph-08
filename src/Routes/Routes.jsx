@@ -5,7 +5,7 @@ import Errorpage from '../Pages/Errorpage/Errorpage';
 import Home from '../Pages/Home/Home';
 import Apps from '../Pages/Apps/Apps';
 import Installed from '../Pages/Installed/Installed';
-import TrendingApps from '../Components/TendingApps/TrendingApps';
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -17,7 +17,7 @@ export const router = createBrowserRouter([
             index:true,
             path:'/',
             Component:Home,
-            loader:()=>fetch('')
+            loader:()=>fetch('/homeapp.json')
         },
         {
             path:'/apps',

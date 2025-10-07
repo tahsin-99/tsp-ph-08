@@ -36,7 +36,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn w-[145px] text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2]">
+    <a href='https://github.com/dashboard' target='_blank' className="btn w-[145px] text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2]">
         <div className='flex gap-3'>
             <img src={git} alt="" />
             <p>Contribute</p>
