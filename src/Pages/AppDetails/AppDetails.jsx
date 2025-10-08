@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
 import { useLoaderData, useParams } from 'react-router';
 import download from '../../assets/icon-downloads.png'
 import ratings from '../../assets/icon-ratings.png'
 import review from '../../assets/icon-review.png'
+import { addToStoreDB } from '../../Utility/addToDB';
 
 
 const AppDetails = () => {
+
+    const [install,setInstall]=useState(false)
+    const handleClick=()=>{
+       setInstall(true)
+    }
     
     const {id} =useParams()
     const appId =parseInt(id)
@@ -25,7 +31,12 @@ const AppDetails = () => {
    const {title,image,whyUsed,companyName,downloads,ratingAvg,reviews,size,description,ratings:ratingData}=singleApp
    
    
-
+   const handleInstallClick = () => {
+   
+  setInstall(true); 
+  
+  addToStoreDB(id)    
+};
     
 
     return (
@@ -61,7 +72,7 @@ const AppDetails = () => {
 
        </div>
       <div className='mx-auto text-center'>
-         <button className=' w-[239px] h-[52px] bg-[#00D390] rounded-sm text-white cursor-pointer'>Install Now ({size}MB) </button>
+         <button onClick={handleInstallClick} className=' w-[239px] h-[52px] bg-[#00D390] rounded-sm text-white cursor-pointer'>{!install?`Install Now (${size}MB)`:'Installed'}  </button>
       </div>
        
        <div className='p-5'>
