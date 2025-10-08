@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../../Components/Banner/Banner';
 import { useLoaderData } from 'react-router';
 import Homeapps from '../Homeapps/Homeapps';
+import AppDetails from '../AppDetails/AppDetails';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <div>
           <Banner ></Banner>  
           <Homeapps data={data}></Homeapps>
+          
         </div>
     );
 };

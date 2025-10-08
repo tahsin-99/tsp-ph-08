@@ -1,10 +1,10 @@
-import React, { Suspense, use } from 'react';
+import React, { Suspense } from 'react';
 import Homeapp from '../Homeapp/Homeapp';
 import { Link } from 'react-router';
 
-const Homeapps = ({data}) => {
-    
-    
+const Homeapps = ({ data }) => {
+
+
     return (
         <div className='w-[1440px] h-full  mx-auto mt-3'>
             <div className='text-center space-y-5 mt-5'>
@@ -13,17 +13,17 @@ const Homeapps = ({data}) => {
 
             </div>
 
-           <Suspense fallback={<span>Loading....</span>}>
-            <div className='grid grid-cols-4 gap-4'>
-                {
-                  data.map((app)=><Homeapp key={app.id} app={app}></Homeapp>)
-                }
-            </div>
-           <div className='text-center'>
-            <Link to='/apps'>
-             <button className='w-[145px] h-[48px] rounded-sm  bg-linear-to-r from-[#632EE3] to-[#9F62F2] mt-5 text-white cursor-pointer '>Show All</button></Link>
-           </div>
-           </Suspense>
+            <Suspense fallback={<span>Loading....</span>}>
+                <div className='grid grid-cols-4 gap-4'>
+                    {
+                        data.map((app) => <Homeapp key={app.id} app={app}></Homeapp>)
+                    }
+                </div>
+                <div className='text-center'>
+                    <Link to='/apps'>
+                        <button className='w-[145px] h-[48px] rounded-sm  bg-linear-to-r from-[#632EE3] to-[#9F62F2] mt-5 text-white cursor-pointer '>Show All Apps</button></Link>
+                </div>
+            </Suspense>
         </div>
     );
 };

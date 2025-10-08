@@ -1,12 +1,14 @@
 import React from 'react';
 import download from '../../assets/icon-downloads.png'
 import ratings from '../../assets/icon-ratings.png'
+import { Link } from 'react-router';
 
 
 const App = ({allApp}) => {
-     const { image, title,whyUsed,ratingAvg,downloads }=allApp
+     const { image, title,whyUsed,ratingAvg,downloads,id }=allApp
     return (
         <div>
+            <Link to={`/appsdetails/${id}`}>
             <div className='w-[348px] h-[435px] border border-gray-300 shadow-md rounded-sm mt-5'>
                             <img  src={image} className='h-[316px] rounded-lg mt-2 mx-auto ' alt="" />
                             <p className='font-medium text-[20px] ml-2'>{title} :  {whyUsed}</p>
@@ -26,6 +28,7 @@ const App = ({allApp}) => {
                                 </button>
                             </div>
                     </div>
+            </Link>
         </div>
     );
 };

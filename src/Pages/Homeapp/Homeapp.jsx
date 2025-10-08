@@ -1,16 +1,18 @@
 import React from 'react';
 import download from '../../assets/icon-downloads.png'
 import ratings from '../../assets/icon-ratings.png'
+import { Link } from 'react-router';
 
 
 const Homeapp = ({ app }) => {
-    const { image, title,whyUsed,ratingAvg,downloads } = app
+    const { image, title,whyUsed,ratingAvg,downloads,id} = app
     return (
+        <Link to={`/appsdetails/${id}`}>
         <div className='w-[348px] h-[435px] border border-gray-300 shadow-md rounded-sm mt-5'>
                 <img  src={image} className='h-[316px] rounded-lg mt-2 mx-auto ' alt="" />
                 <p className='font-medium text-[20px] ml-2'>{title} :  {whyUsed}</p>
                 <div className='flex justify-between mt-5 p-2'>
-                    <button className='w-[70px] h-[30px] bg-[#F1F5E8] text-green-500 p-1'>
+                    <button className='w-[100px] rounded-md h-[30px] bg-[#F1F5E8] text-green-500 p-1'>
                        <div className='flex gap-3'>
                          <img width={20} height={20} src={download} alt="" />
                          <p>{downloads}M</p>
@@ -25,6 +27,7 @@ const Homeapp = ({ app }) => {
                     </button>
                 </div>
         </div>
+        </Link>
     );
 };
 

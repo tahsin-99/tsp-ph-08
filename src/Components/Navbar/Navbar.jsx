@@ -7,10 +7,12 @@ import logo from '../../assets/logo.png'
 const Navbar = () => {
     const links = <>
 
-        <NavLink to='/'><li><a>Home</a></li></NavLink>
-        <NavLink to='/apps'><li><a>Apps</a></li></NavLink>
-        <NavLink to='/installation'> <li><a>Installation</a></li></NavLink>
+      <div className='flex gap-6'>
+          <NavLink to='/'><li>Home</li></NavLink>
+        <NavLink to='/apps'><li>Apps</li></NavLink>
+        <NavLink to='/installation'><li>Installation</li></NavLink>
 
+      </div>
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm">
@@ -27,13 +29,13 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-                <a className=" ml-10 font-bold text-xl">
-                   <Link to='/'>
+                
+                   <Link to='/' className=" ml-10 font-bold text-xl">
                     <div className='flex gap-2 items-center'>
                         <img className='w-[40px] h-[40px]' src={logo} alt="" />
                         <p>Appify.Io</p>
                     </div></Link>
-                </a>
+                
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 font-semibold">
