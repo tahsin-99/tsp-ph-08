@@ -1,5 +1,6 @@
 import React, { Suspense, use } from 'react';
 import Homeapp from '../Homeapp/Homeapp';
+import { Link } from 'react-router';
 
 const Homeapps = ({data}) => {
     
@@ -18,6 +19,10 @@ const Homeapps = ({data}) => {
                   data.map((app)=><Homeapp key={app.id} app={app}></Homeapp>)
                 }
             </div>
+           <div className='text-center'>
+            <Link to='/apps'>
+             <button className='w-[145px] h-[48px] rounded-sm  bg-linear-to-r from-[#632EE3] to-[#9F62F2] mt-5 text-white cursor-pointer '>Show All</button></Link>
+           </div>
            </Suspense>
         </div>
     );

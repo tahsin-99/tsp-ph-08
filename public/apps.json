@@ -1,0 +1,564 @@
+[
+  {
+    "image": "https://i.ibb.co.com/TM2PW6yv/unnamed.png",
+    "title": "QuickChat",
+    "companyName": "Chatter Inc.",
+    "id": 1,
+    "description": "QuickChat is a messaging app that allows users to chat in real-time. It supports both text and multimedia messages. Users can make voice and video calls globally. It offers end-to-end encryption for secure communication. Group chats and file sharing are also available. Notifications are customizable per conversation. It integrates easily with contacts and social media. Offline messages are automatically synced once online. The interface is clean and user-friendly. It supports dark mode and chat themes.",
+    "size": 35,
+    "reviews": 12452,
+    "ratingAvg": 4.3,
+    "downloads": 5,
+    "whyUsed": "for instant messaging",
+    "ratings": [
+      { "name": "1 star", "count": 523 },
+      { "name": "2 star", "count": 764 },
+      { "name": "3 star", "count": 1021 },
+      { "name": "4 star", "count": 3324 },
+      { "name": "5 star", "count": 6820 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bMxVV7WH/fitness.png",
+    "title": "FitnessPro",
+    "companyName": "HealthMate",
+    "id": 2,
+    "description": "FitnessPro is your all-in-one fitness companion. It tracks your daily workouts and step count. Calorie tracking and water intake reminders are included. It allows goal setting and provides progress reports. Personal workout plans are generated using AI. The app includes yoga, HIIT, and strength exercises. FitnessPro supports fitness device syncing like smartwatches. It provides motivational tips and health articles. You can also join fitness challenges with friends. All features are customizable to user needs.",
+    "size": 58,
+    "reviews": 9843,
+    "ratingAvg": 4.6,
+    "downloads": 2,
+    "whyUsed": "for workout tracking",
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 780 },
+      { "name": "4 star", "count": 2763 },
+      { "name": "5 star", "count": 5800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1fF50G5s/tune.webp",
+    "title": "MusicMix",
+    "companyName": "TunePlay",
+    "id": 3,
+    "description": "MusicMix is a music streaming app with a massive library. You can listen to millions of tracks online. It allows creation and sharing of playlists. The app recommends music based on your taste. Offline downloads are available for premium users. Users can follow artists and get updates. MusicMix offers lyrics for most songs. Audio quality can be adjusted for data savings. It includes radio stations and mood playlists. Social features let you see what friends are listening to.",
+    "size": 72,
+    "reviews": 23342,
+    "ratingAvg": 4.1,
+    "downloads": 8,
+    "whyUsed": "for streaming music",
+    "ratings": [
+      { "name": "1 star", "count": 1300 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 5100 },
+      { "name": "5 star", "count": 11942 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/fd7mSC1v/pixelperfect.webp",
+    "title": "PhotoEdit+",
+    "companyName": "PixelPerfect",
+    "id": 4,
+    "description": "PhotoEdit+ is a powerful photo editor for all skill levels. It offers one-tap filters and AI enhancements. You can adjust brightness, contrast, and saturation. It includes cropping, resizing, and background removal. The app supports adding text and stickers to images. Batch editing is available for convenience. Professional tools like curves and HSL are included. You can create collages and photo grids. Sharing to social media is built-in. Tutorials guide beginners through every feature.",
+    "size": 85,
+    "reviews": 17895,
+    "ratingAvg": 4.7,
+    "downloads": 35,
+    "whyUsed": "for photo editing",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 460 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 11735 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/k6PdM65K/finance.webp",
+    "title": "SmartBudget",
+    "companyName": "FinanceTech",
+    "id": 5,
+    "description": "SmartBudget helps you track expenses and save money. It automatically categorizes transactions. Users can set monthly spending limits. It links with bank accounts securely. The app provides visual reports of your finances. You can track savings goals over time. It sends reminders for upcoming bills. Exporting financial data is supported. The app helps users reduce unnecessary spending. Everything is stored locally with optional cloud backup.",
+    "size": 28,
+    "reviews": 8561,
+    "ratingAvg": 4.2,
+    "downloads": 15,
+    "whyUsed": "to track expenses",
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 430 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2845 },
+      { "name": "5 star", "count": 3936 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9mpM7qBn/edu.webp",
+    "title": "LangLearn",
+    "companyName": "EduWorld",
+    "id": 6,
+    "description": "LangLearn is a language learning platform. It supports over 20 languages with daily lessons. Lessons include speaking, reading, and listening practice. Gamified quizzes help reinforce learning. Flashcards and spaced repetition are available. It tracks your daily streak and progress. You can speak with native speakers via chat. LangLearn uses AI to personalize lessons. Offline mode is available for travelers. It’s suitable for both kids and adults.",
+    "size": 49,
+    "reviews": 12100,
+    "ratingAvg": 4.5,
+    "downloads": 13,
+    "whyUsed": "to learn languages",
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 510 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 6670 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/23ZJPLV3/global-news.png",
+    "title": "NewsDaily",
+    "companyName": "GlobalNews Ltd.",
+    "id": 7,
+    "description": "NewsDaily keeps you updated with global news. It covers politics, sports, tech, and more. Articles are updated every few minutes. You can customize your news feed. Push notifications highlight breaking news. NewsDaily offers both video and audio summaries. Offline reading is available for saved articles. The app avoids clickbait headlines. It sources news from credible outlets. Readers can comment and react to stories.",
+    "size": 40,
+    "reviews": 15700,
+    "ratingAvg": 3.9,
+    "downloads": 14,
+    "whyUsed": "for reading news",
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 6100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YFT0RPdF/cook.png",
+    "title": "RecipeHub",
+    "companyName": "CookBook Apps",
+    "id": 8,
+    "description": "RecipeHub offers thousands of curated recipes. You can browse by ingredient, cuisine, or diet. Step-by-step instructions with timers are included. Users can save favorite recipes to their profile. Meal planning and grocery lists are built-in. Recipes include nutrition facts and tips. Upload and share your own recipes too. Video tutorials help visual learners cook better. A community forum allows discussions and ratings. Seasonal and trending recipes are highlighted daily.",
+    "size": 63,
+    "reviews": 64,
+    "ratingAvg": 4.4,
+    "downloads": 11,
+    "whyUsed": "for cooking recipes",
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 3120 }
+    ]
+  },
+  
+  {
+    "image": "https://i.ibb.co.com/MDXC994X/readwise.png",
+    "title": "ReadWise",
+    "companyName": "Readerly Co.",
+    "id": 9,
+    "description": "ReadWise helps you collect, organize, and revisit book highlights. It syncs with Kindle, Apple Books, and PDFs. You can tag, search, and export notes easily. Daily emails keep you engaged with your reading. It includes spaced repetition to retain knowledge. Cloud backup ensures nothing is lost. Reading stats show your habits over time. You can share highlights with friends or public boards. Integrates with Notion, Roam, and Evernote. Perfect for active readers and learners.",
+    "size": 29,
+    "reviews": 4200,
+    "ratingAvg": 4.6,
+    "downloads": 1.1,
+    "whyUsed": "to save highlights",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 100
+      },
+      {
+        "name": "2 star",
+        "count": 220
+      },
+      {
+        "name": "3 star",
+        "count": 520
+      },
+      {
+        "name": "4 star",
+        "count": 1200
+      },
+      {
+        "name": "5 star",
+        "count": 2160
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/kVR22LsG/mindtrack-2.png",
+    "title": "MindTrack",
+    "companyName": "FocusWare",
+    "id": 10,
+    "description": "MindTrack is your daily mental health journal. It helps you reflect on your mood and emotions. Built-in prompts make it easy to start. It tracks patterns over time and offers insights. All entries are encrypted and stored securely. You can sync data across multiple devices. Mood charts and reminders keep you consistent. The app includes breathing and mindfulness exercises. You can set mental health goals. Great for therapy users and self-reflection.",
+    "size": 37,
+    "reviews": 6400,
+    "ratingAvg": 4.8,
+    "downloads": 2.3,
+    "whyUsed": "for mental health",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 90
+      },
+      {
+        "name": "2 star",
+        "count": 150
+      },
+      {
+        "name": "3 star",
+        "count": 470
+      },
+      {
+        "name": "4 star",
+        "count": 1600
+      },
+      {
+        "name": "5 star",
+        "count": 4090
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/cXt5tj02/planpal.png",
+    "title": "PlanPal",
+    "companyName": "TaskNova",
+    "id": 11,
+    "description": "PlanPal is your productivity partner for managing tasks. It supports kanban, calendar, and list views. You can prioritize tasks with color coding. Reminders and recurring tasks are included. It syncs across web and mobile seamlessly. You can collaborate with teams on shared boards. Widgets help track daily to-dos. PlanPal integrates with Google and Outlook Calendar. Dark and light modes are available. Ideal for personal and professional planning.",
+    "size": 41,
+    "reviews": 7800,
+    "ratingAvg": 4.4,
+    "downloads": 3.2,
+    "whyUsed": "for task planning",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 210
+      },
+      {
+        "name": "2 star",
+        "count": 300
+      },
+      {
+        "name": "3 star",
+        "count": 890
+      },
+      {
+        "name": "4 star",
+        "count": 2200
+      },
+      {
+        "name": "5 star",
+        "count": 4200
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/SDyY2584/tunebeat.jpg",
+    "title": "TuneBeat",
+    "companyName": "BeatFlow Music",
+    "id": 12,
+    "description": "TuneBeat is a social music app for sharing and discovering tracks. Create playlists and share them with friends. React to songs with comments and emojis. AI recommends new music daily. Follow DJs and influencers. Stream concerts and music events live. Built-in audio equalizer for customization. Offline mode for premium users. Gamified rewards system included. It\u2019s like social media but for music lovers.",
+    "size": 65,
+    "reviews": 10200,
+    "ratingAvg": 4.1,
+    "downloads": 6.0,
+    "whyUsed": "for social streaming",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 500
+      },
+      {
+        "name": "2 star",
+        "count": 800
+      },
+      {
+        "name": "3 star",
+        "count": 1400
+      },
+      {
+        "name": "4 star",
+        "count": 2800
+      },
+      {
+        "name": "5 star",
+        "count": 4700
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DHzTMPpt/shopwise.png",
+    "title": "ShopWise",
+    "companyName": "RetailNet",
+    "id": 13,
+    "description": "ShopWise is your personalized shopping assistant. Get curated deals based on your interests. Track price drops with alerts. Compare prices across online stores. Add products to wishlist and share. Save receipts and warranties digitally. Get cashback on partnered retailers. Product reviews and ratings built-in. ShopWise helps reduce overspending. Great for smart online shoppers.",
+    "size": 39,
+    "reviews": 9200,
+    "ratingAvg": 4.2,
+    "downloads": 4.1,
+    "whyUsed": "for smart shopping",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 340
+      },
+      {
+        "name": "2 star",
+        "count": 450
+      },
+      {
+        "name": "3 star",
+        "count": 1000
+      },
+      {
+        "name": "4 star",
+        "count": 2200
+      },
+      {
+        "name": "5 star",
+        "count": 5210
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zhcgDRkJ/eduspark.png",
+    "title": "LearnLoop",
+    "companyName": "EduSpark",
+    "id": 14,
+    "description": "LearnLoop is a microlearning platform for quick skills. It offers bite-sized lessons on many topics. Videos and quizzes make learning fun. Personalized recommendations for users. Daily learning streaks to stay motivated. You can bookmark and share lessons. LearnLoop offers certificates upon completion. Gamified points and ranks available. Works offline with downloaded lessons. Used by schools and professionals alike.",
+    "size": 53,
+    "reviews": 11100,
+    "ratingAvg": 4.5,
+    "downloads": 7.8,
+    "whyUsed": "to gain skills",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 410
+      },
+      {
+        "name": "2 star",
+        "count": 500
+      },
+      {
+        "name": "3 star",
+        "count": 900
+      },
+      {
+        "name": "4 star",
+        "count": 3100
+      },
+      {
+        "name": "5 star",
+        "count": 6190
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gbL0Pkrc/weatherpro.png",
+    "title": "WeatherPro",
+    "companyName": "SkyTech",
+    "id": 15,
+    "description": "WeatherPro offers detailed weather forecasts and alerts. Get hourly, daily, and weekly outlooks. Includes radar maps and storm tracking. Customize widgets for your home screen. Receive real-time notifications about changes. Track multiple locations at once. Supports sunrise, sunset, and moon phases. Severe weather alerts ensure your safety. Supports both light and dark themes. Trusted by millions worldwide.",
+    "size": 43,
+    "reviews": 10500,
+    "ratingAvg": 4.3,
+    "downloads": 9.2,
+    "whyUsed": "for weather updates",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 300
+      },
+      {
+        "name": "2 star",
+        "count": 500
+      },
+      {
+        "name": "3 star",
+        "count": 1300
+      },
+      {
+        "name": "4 star",
+        "count": 3000
+      },
+      {
+        "name": "5 star",
+        "count": 5400
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/BH8w6rBH/focusmate.png",
+    "title": "FocusMate",
+    "companyName": "ClarityWorks",
+    "id": 16,
+    "description": "FocusMate helps you stay focused with virtual coworking. Join live focus sessions with accountability partners. Built-in Pomodoro timers improve productivity. Keep track of your progress with stats. Connect with global community members. Schedule your sessions in advance. Includes daily reflection and goal setting. Muted mode and chat options available. Great for remote workers and students. Encourages deep and distraction-free work.",
+    "size": 30,
+    "reviews": 8700,
+    "ratingAvg": 4.6,
+    "downloads": 2.9,
+    "whyUsed": "to improve focus",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 120
+      },
+      {
+        "name": "2 star",
+        "count": 240
+      },
+      {
+        "name": "3 star",
+        "count": 690
+      },
+      {
+        "name": "4 star",
+        "count": 2400
+      },
+      {
+        "name": "5 star",
+        "count": 5250
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vCPcv6gy/meal-prephero.jpg",
+    "title": "MealPrep Hero",
+    "companyName": "KitchenLogic",
+    "id": 17,
+    "description": "MealPrep Hero helps you plan and prep your meals for the week. Browse curated meal plans by nutritionists. Generate automatic grocery lists. Step-by-step prep instructions with timers. Save and reuse your favorite plans. Supports multiple diets like keto and vegan. Track nutritional value and calories. Export plans to calendar apps. Video guides included for beginners. Makes healthy eating easier and consistent.",
+    "size": 47,
+    "reviews": 6100,
+    "ratingAvg": 4.4,
+    "downloads": 3.7,
+    "whyUsed": "for meal planning",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 210
+      },
+      {
+        "name": "2 star",
+        "count": 380
+      },
+      {
+        "name": "3 star",
+        "count": 760
+      },
+      {
+        "name": "4 star",
+        "count": 1700
+      },
+      {
+        "name": "5 star",
+        "count": 4050
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6JL7vz65/codebuddy.png",
+    "title": "CodeBuddy",
+    "companyName": "DevBoost",
+    "id": 18,
+    "description": "CodeBuddy is an AI coding assistant for beginners. Write and debug code in real time. Supports multiple languages and syntax highlighting. Instant error suggestions and fixes. Learn through interactive challenges and quizzes. Project templates help you get started quickly. Save and export your code snippets. Works offline with local storage. Community sharing of code samples. Ideal for students and hobbyists.",
+    "size": 55,
+    "reviews": 9500,
+    "ratingAvg": 4.7,
+    "downloads": 6.5,
+    "whyUsed": "to learn coding",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 140
+      },
+      {
+        "name": "2 star",
+        "count": 250
+      },
+      {
+        "name": "3 star",
+        "count": 640
+      },
+      {
+        "name": "4 star",
+        "count": 2200
+      },
+      {
+        "name": "5 star",
+        "count": 6270
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qLtx1FLP/pageturner.png",
+    "title": "BookTrackr",
+    "companyName": "PageTurners",
+    "id": 19,
+    "description": "BookTrackr lets you log, review, and organize your reading life. Track your reading goals across genres. Add ratings and personal reviews. Discover new books based on preferences. Set up your digital bookshelf. Get recommendations from friends. Join book clubs and discussions. Export your reading history anytime. Syncs with Goodreads and Kindle. Great for avid readers and students.",
+    "size": 33,
+    "reviews": 7400,
+    "ratingAvg": 4.3,
+    "downloads": 2.4,
+    "whyUsed": "to track reading",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 160
+      },
+      {
+        "name": "2 star",
+        "count": 270
+      },
+      {
+        "name": "3 star",
+        "count": 620
+      },
+      {
+        "name": "4 star",
+        "count": 2000
+      },
+      {
+        "name": "5 star",
+        "count": 4350
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/CswP61mR/lingolab.png",
+    "title": "VocabVault",
+    "companyName": "LingoLabs",
+    "id": 20,
+    "description": "VocabVault helps build and retain vocabulary effectively. Add words manually or from articles. Uses spaced repetition to enhance memory. Includes quizzes and word games. Track daily streak and mastery stats. Organize words into topics. Works offline after syncing. Share word lists with classmates or friends. Dark mode and font customization supported. Best for students and language learners.",
+    "size": 38,
+    "reviews": 5900,
+    "ratingAvg": 4.5,
+    "downloads": 3.1,
+    "whyUsed": "to build vocabulary",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 130
+      },
+      {
+        "name": "2 star",
+        "count": 200
+      },
+      {
+        "name": "3 star",
+        "count": 530
+      },
+      {
+        "name": "4 star",
+        "count": 1800
+      },
+      {
+        "name": "5 star",
+        "count": 4240
+      }
+    ]
+  }
+
+]
