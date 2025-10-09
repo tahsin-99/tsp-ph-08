@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLoaderData } from 'react-router';
 import search from '../../assets/search.png'
 import App from '../App/App';
-
+import logo from '../../assets/logo.png'
 
 
 
@@ -11,6 +11,17 @@ const Apps = () => {
 
     const data =useLoaderData()
     const [find,setFind]=useState('')
+
+    const [loading,setLoading]=useState(false)
+
+     const handleSearch=(e)=>{
+      setLoading(true)
+      const value =e.target.value
+      setTimeout(()=>{
+        setFind(value)
+      setLoading(false)
+      },500)
+     }
     
   
             const filterApps =data.filter(item=>item.title.toLowerCase().includes(find.toLowerCase()))
@@ -32,14 +43,24 @@ const Apps = () => {
             </div>
             <div>
                
-                <input onChange={(e)=>setFind(e.target.value)} className='border-1 border-gray-200 w-[400px] h-[44px] bg-no-repeat bg-left  bg-[length:16px_16px] pl-8 ' style={{backgroundImage:`url(${search})`, backgroundPosition:'10px'}} type="search" name="" id="" placeholder= 'Search Apps' />
+                <input onChange={handleSearch} className='border-1 border-gray-200 w-[400px] h-[44px] bg-no-repeat bg-left  bg-[length:16px_16px] pl-8 ' style={{backgroundImage:`url(${search})`, backgroundPosition:'10px'}} type="search" name="" id="" placeholder= 'Search Apps' />
             </div>
 
             
         </div>
 
         <div className='w-[1440px] h-auto  mx-auto p-5'>
+
           {
+            loading ?(
+              <div>
+                <p className='text-6xl text-center mt-6 flex font-bold justify-center items-center gap-2'>L
+                   <img className='w-16 h-16 animate-spin inline-block' src={logo}alt="" /> ading.....
+                   </p>
+              </div>
+            ):
+          
+
             filterApps.length>0?(
                   <div className='grid grid-cols-4 gap-5'>
                 {

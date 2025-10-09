@@ -1,37 +1,50 @@
 import React, { useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
-import { useLoaderData, useParams } from 'react-router';
+import {  useLoaderData, useNavigate, useParams } from 'react-router';
 import download from '../../assets/icon-downloads.png'
 import ratings from '../../assets/icon-ratings.png'
 import review from '../../assets/icon-review.png'
 import { addToStoreDB } from '../../Utility/addToDB';
 
+import apperror from '../../assets/App-Error.png'
+import { toast } from 'react-toastify';
+
 
 const AppDetails = () => {
 
+  const navigate=useNavigate()
+
     const [install,setInstall]=useState(false)
-    const handleClick=()=>{
-       setInstall(true)
-    }
+   
     
     const {id} =useParams()
     const appId =parseInt(id)
    const data=useLoaderData()
-//    const ratingData=singleApp.ratings
+
    const singleApp=data.find(app=>app.id===appId)
 
     if (!singleApp) {
     return (
-      <div className="text-center mt-10">
-        <h2 className="text-3xl text-black font-bold">App  not found</h2>
-
+     <div className='flex flex-col justify-center items-center mt-10 gap-5 p-5'>
+      <div><img className=' h-[300px]' src={apperror} alt="" /></div>
+      <div className='text-center'>
+        <p className='font-semibold text-5xl'>OPPS!! APP NOT FOUND</p>
+        <p className='font-normal text-[20px] text-[#627382]'>The App you are requesting is not found on our system.  Please try another apps</p>
+        
+           <button onClick={()=>navigate(-1)} className='mt-20 text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2] font-semibold rounded-sm w-[150px] h-[48px] cursor-pointer'>Go Back!</button>
+           
       </div>
+     </div>
     );
   }
    const {title,image,whyUsed,companyName,downloads,ratingAvg,reviews,size,description,ratings:ratingData}=singleApp
    
    
    const handleInstallClick = () => {
+     if(install){
+      toast('This app is already installed');
+      return;
+     }
    
   setInstall(true); 
   
@@ -72,8 +85,10 @@ const AppDetails = () => {
 
        </div>
       <div className='mx-auto text-center'>
-         <button onClick={handleInstallClick} className=' w-[239px] h-[52px] bg-[#00D390] rounded-sm text-white cursor-pointer'>{!install?`Install Now (${size}MB)`:'Installed'}  </button>
+         <button onClick={handleInstallClick} className=' w-[239px] h-[52px] bg-[#00D390] rounded-sm text-white cursor-pointer transition-transform duration-150 active:-translate-y-1 hover:-translate-y-1 active:scale-95'>{!install?`Install Now (${size}MB)`:'Installed'}  </button>
+         
       </div>
+      
        
        <div className='p-5'>
             <p className='font-semibold text-[24px]'>Ratings</p>
