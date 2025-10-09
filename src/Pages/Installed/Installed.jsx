@@ -59,13 +59,13 @@ const Installed = () => {
                 </div>
             </div>
 
-            <div className='w-[1440px] mx-auto   mt-10'>
+            <div className='sm:w-[1440px] mx-auto p-4   mt-10'>
                 <div className='space-y-5'>
                     {
                         appList.map(app => (
-                            <div key={app.id} className='flex w-[1440px] h-[112px] border-1 border-gray-200 justify-between p-4 items-center'>
+                            <div key={app.id} className='sm:flex sm:w-[1440px]  h-auto border-1 border-gray-200 justify-between p-5  items-center text-center space-y-5 rounded-md'>
 
-                                <div className='flex'>
+                                <div className='flex '>
                                     <div>
                                         <img className='w-[80px] h-[80px] mr-3 ' src={app.image} alt="" />
                                     </div>
@@ -75,7 +75,7 @@ const Installed = () => {
 
 
                                         </div>
-                                        <div className='flex items-center gap-10 mt-3'>
+                                        <div className='flex  items-center gap-10 mt-3'>
                                             <div className='flex items-center gap-2'>
                                                 <p><img className='w-[16px] h-[16px]' src={download} alt="" /></p>
                                                 <p>{app.downloads}M</p>

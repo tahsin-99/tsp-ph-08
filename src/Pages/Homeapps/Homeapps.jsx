@@ -6,7 +6,7 @@ const Homeapps = ({ data }) => {
 
 
     return (
-        <div className='w-[1440px] h-full  mx-auto mt-3'>
+        <div className=' sm:w-[1440px] h-full   mx-auto mt-3'>
             <div className='text-center space-y-5 mt-5'>
                 <h1 className='font-bold text-5xl'>Trending Apps</h1>
                 <p className='text-[#627382] text-[20px] font-normal'>Explore All Trending Apps on the Market developed by us</p>
@@ -14,7 +14,7 @@ const Homeapps = ({ data }) => {
             </div>
 
             <Suspense fallback={<span>Loading....</span>}>
-                <div className='grid grid-cols-4 gap-4'>
+                <div className='grid sm:grid-cols-4 grid-cols-1 p-4  gap-4'>
                     {
                         data.map((app) => <Homeapp key={app.id} app={app}></Homeapp>)
                     }

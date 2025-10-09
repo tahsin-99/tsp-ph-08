@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer } from 'recharts';
 import {  useLoaderData, useNavigate, useParams } from 'react-router';
 import download from '../../assets/icon-downloads.png'
 import ratings from '../../assets/icon-ratings.png'
@@ -41,12 +41,14 @@ const AppDetails = () => {
    
    
    const handleInstallClick = () => {
+    
      if(install){
       toast('This app is already installed');
       return;
      }
    
   setInstall(true); 
+  toast('App Installing...')
   
   addToStoreDB(id)    
 };
@@ -54,16 +56,16 @@ const AppDetails = () => {
 
     return (
        <>
-       <div className='flex justify-between items-center p-5 '>
-        <div className='w-[25%]'>
+       <div className='sm:flex justify-between items-center p-5 '>
+        <div className='sm:w-[25%]'>
             <img className='w-[350px] h-[350px]' src={image} alt="" />
         </div>
-        <div className='w-[75%] space-y-10'>
+        <div className='sm:w-[75%] space-y-10'>
            <div className='border-b-1'>
              <h3 className='text-3xl font-bold'>{title} : {whyUsed} </h3>
             <p className='font-normal text-[20px] text-[#627382]'>Developed by:<span className='text-purple-600'>{companyName}</span></p>
            </div>
-           <div className='flex gap-10 '>
+           <div className='flex sm:gap-10 gap-8 '>
             <div className='space-y-5'>
                 <img className='w-[40px] h-[40px]' src={download} alt="" />
             <p className='font-normal text-[16px]'>Downloads</p>
@@ -93,7 +95,8 @@ const AppDetails = () => {
        <div className='p-5'>
             <p className='font-semibold text-[24px]'>Ratings</p>
 
-             <BarChart 
+            <ResponsiveContainer width='100%' height={300} >
+               <BarChart className='' 
             width={1500}
             height={300}
             data={ratingData}
@@ -108,6 +111,8 @@ const AppDetails = () => {
     
     <Bar dataKey="count" fill="#632EE3" barSize={30}  />
   </BarChart> 
+              </ResponsiveContainer>
+            
        </div>
 
        <div className='p-5'>

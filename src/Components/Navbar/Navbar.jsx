@@ -7,7 +7,7 @@ import logo from '../../assets/logo.png'
 const Navbar = () => {
     const links = <>
 
-      <div className='flex gap-6'>
+      <div className='flex gap-6 '>
           <NavLink to='/'><li>Home</li></NavLink>
         <NavLink to='/apps'><li>Apps</li></NavLink>
         <NavLink to='/installation'><li>Installation</li></NavLink>
