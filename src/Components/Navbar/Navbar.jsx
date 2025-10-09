@@ -30,15 +30,15 @@ const Navbar = () => {
                     </ul>
                 </div>
                 
-                   <Link to='/' className=" ml-10 font-bold text-xl">
+                   <Link to='/' className=" sm:ml-10 font-bold text-xl">
                     <div className='flex gap-2 items-center'>
                         <img className='w-[40px] h-[40px]' src={logo} alt="" />
                         <p>Appify.Io</p>
                     </div></Link>
                 
             </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 font-semibold">
+            <div className="navbar-center  hidden lg:flex">
+                <ul className="menu menu-horizontal px-1 font-semibold ">
                     {
                         links
                     }
