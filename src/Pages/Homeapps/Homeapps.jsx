@@ -21,7 +21,7 @@ const Homeapps = ({ data }) => {
                 </div>
                 <div className='text-center'>
                     <Link to='/apps'>
-                        <button className='w-[145px] h-[48px] rounded-sm  bg-linear-to-r from-[#632EE3] to-[#9F62F2] mt-5 text-white cursor-pointer '>Show All Apps</button></Link>
+                        <button className='w-[145px] h-[48px] rounded-sm  bg-linear-to-r from-[#632EE3] to-[#9F62F2] mt-5 text-white cursor-pointer transform transition-transform duration-150  hover:-translate-y-1 active:scale-95'>Show All Apps</button></Link>
                 </div>
             </Suspense>
         </div>

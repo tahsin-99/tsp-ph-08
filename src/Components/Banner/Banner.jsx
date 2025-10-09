@@ -14,7 +14,7 @@ const Banner = () => {
 
                     <div className='mt-20'>
                         <button className='bg-green-300 border-1 border-gray-100 w-[200px]
-                        h-[56px] rounded-sm mr-10 font-semibold p-3'>
+                        h-[56px] rounded-sm mr-10 font-semibold p-3 transform transition-transform duration-150 active:-translate-y-1 hover:-translate-y-1 active:scale-95'>
                             <a href="https://play.google.com/store/games?hl=en" target='_blank'>
                                 <div className='flex gap-4 items-center'>
 
@@ -25,7 +25,7 @@ const Banner = () => {
 
                         </button>
                         <button className='bg-blue-300 border-1 border-gray-100 w-[200px]
-                        h-[56px] rounded-sm mr-10 font-semibold p-3'>
+                        h-[56px] rounded-sm mr-10 font-semibold p-3 transform transition-transform duration-150  hover:-translate-y-1 active:scale-95'>
                             <a href="https://www.apple.com/app-store/" target='_blank'>
                                 <div className='flex gap-4 items-center'>
                                     <img src={appstore} alt="" />
